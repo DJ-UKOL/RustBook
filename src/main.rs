@@ -9,6 +9,7 @@ mod slices;
 mod structs;
 mod rectangles;
 mod enums;
+mod matches;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -21,6 +22,7 @@ use crate::slices::slices;
 use crate::structs::structs;
 use crate::rectangles::rectangles;
 use crate::enums::enums;
+use crate::matches::matches;
 
 fn main() {
     //variables();
@@ -33,5 +35,6 @@ fn main() {
     //slices();
     //structs();
     //rectangles();
-    enums();
+    //enums();
+    matches();
 }
