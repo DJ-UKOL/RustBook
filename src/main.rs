@@ -8,6 +8,7 @@ mod dangling;
 mod slices;
 mod structs;
 mod rectangles;
+mod enums;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -19,6 +20,7 @@ use crate::dangling::dangling;
 use crate::slices::slices;
 use crate::structs::structs;
 use crate::rectangles::rectangles;
+use crate::enums::enums;
 
 fn main() {
     //variables();
@@ -30,5 +32,6 @@ fn main() {
     //dangling();
     //slices();
     //structs();
-    rectangles();
+    //rectangles();
+    enums();
 }
