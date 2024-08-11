@@ -6,6 +6,8 @@ mod ownership;
 mod references;
 mod dangling;
 mod slices;
+mod structs;
+mod rectangles;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -15,6 +17,8 @@ use crate::ownership::ownership;
 use crate::references::references;
 use crate::dangling::dangling;
 use crate::slices::slices;
+use crate::structs::structs;
+use crate::rectangles::rectangles;
 
 fn main() {
     //variables();
@@ -24,5 +28,7 @@ fn main() {
     //ownership();
     //references();
     //dangling();
-    slices();
+    //slices();
+    //structs();
+    rectangles();
 }
