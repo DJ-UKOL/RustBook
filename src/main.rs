@@ -10,6 +10,7 @@ mod structs;
 mod rectangles;
 mod enums;
 mod matches;
+mod iflets;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -23,6 +24,7 @@ use crate::structs::structs;
 use crate::rectangles::rectangles;
 use crate::enums::enums;
 use crate::matches::matches;
+use crate::iflets::iflets;
 
 fn main() {
     //variables();
@@ -36,5 +38,6 @@ fn main() {
     //structs();
     //rectangles();
     //enums();
-    matches();
+    //matches();
+    iflets();
 }
