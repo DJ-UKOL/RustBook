@@ -11,6 +11,7 @@ mod rectangles;
 mod enums;
 mod matches;
 mod iflets;
+mod vectors;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -25,6 +26,7 @@ use crate::rectangles::rectangles;
 use crate::enums::enums;
 use crate::matches::matches;
 use crate::iflets::iflets;
+use crate::vectors::vectors;
 
 fn main() {
     //variables();
@@ -39,5 +41,6 @@ fn main() {
     //rectangles();
     //enums();
     //matches();
-    iflets();
+    //iflets();
+    vectors();
 }
