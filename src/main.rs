@@ -13,6 +13,7 @@ mod matches;
 mod iflets;
 mod vectors;
 mod strings;
+mod hash_maps;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -29,6 +30,7 @@ use crate::matches::matches;
 use crate::iflets::iflets;
 use crate::vectors::vectors;
 use crate::strings::strings;
+use crate::hash_maps::hash_maps;
 
 fn main() {
     //variables();
@@ -45,5 +47,6 @@ fn main() {
     //matches();
     //iflets();
     //vectors();
-    strings();
+    //strings();
+    hash_maps();
 }
