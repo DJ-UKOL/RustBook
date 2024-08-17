@@ -15,6 +15,10 @@ mod vectors;
 mod strings;
 mod hash_maps;
 mod errors;
+mod generics;
+mod traits;
+mod aggregator;
+mod lifetimes;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -33,6 +37,9 @@ use crate::vectors::vectors;
 use crate::strings::strings;
 use crate::hash_maps::hash_maps;
 use crate::errors::errors;
+use crate::generics::generics;
+use crate::traits::traits;
+use crate::lifetimes::lifetimes;
 
 fn main() {
     //variables();
@@ -51,5 +58,8 @@ fn main() {
     //vectors();
     //strings();
     //hash_maps();
-    errors();
+    //errors();
+    generics();
+    traits();
+    lifetimes();
 }
