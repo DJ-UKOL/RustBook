@@ -20,6 +20,7 @@ mod traits;
 mod aggregator;
 mod lifetimes;
 mod closures;
+mod iterators;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -42,6 +43,7 @@ use crate::generics::generics;
 use crate::traits::traits;
 use crate::lifetimes::lifetimes;
 use crate::closures::closures;
+use crate::iterators::iterators;
 
 fn main() {
     //variables();
@@ -64,5 +66,6 @@ fn main() {
     //generics();
     //traits();
     //lifetimes();
-    closures();
+    //closures();
+    iterators();
 }
