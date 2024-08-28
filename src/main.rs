@@ -19,6 +19,7 @@ mod generics;
 mod traits;
 mod aggregator;
 mod lifetimes;
+mod closures;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -40,6 +41,7 @@ use crate::errors::errors;
 use crate::generics::generics;
 use crate::traits::traits;
 use crate::lifetimes::lifetimes;
+use crate::closures::closures;
 
 fn main() {
     //variables();
@@ -59,7 +61,8 @@ fn main() {
     //strings();
     //hash_maps();
     //errors();
-    generics();
-    traits();
-    lifetimes();
+    //generics();
+    //traits();
+    //lifetimes();
+    closures();
 }
