@@ -23,6 +23,8 @@ mod closures;
 mod iterators;
 mod boxes;
 mod smarts;
+mod drops;
+mod pointers;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -47,6 +49,8 @@ use crate::lifetimes::lifetimes;
 use crate::closures::closures;
 use crate::iterators::iterators;
 use crate::boxes::boxes;
+use crate::drops::drops;
+use crate::pointers::pointers;
 use crate::smarts::smarts;
 
 fn main() {
@@ -73,5 +77,7 @@ fn main() {
     //closures();
     //iterators();
     //boxes();
-    smarts();
+    //smarts();
+    //drops();
+    pointers();
 }
