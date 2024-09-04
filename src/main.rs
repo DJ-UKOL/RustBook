@@ -21,6 +21,8 @@ mod aggregator;
 mod lifetimes;
 mod closures;
 mod iterators;
+mod boxes;
+mod smarts;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -44,6 +46,8 @@ use crate::traits::traits;
 use crate::lifetimes::lifetimes;
 use crate::closures::closures;
 use crate::iterators::iterators;
+use crate::boxes::boxes;
+use crate::smarts::smarts;
 
 fn main() {
     //variables();
@@ -67,5 +71,7 @@ fn main() {
     //traits();
     //lifetimes();
     //closures();
-    iterators();
+    //iterators();
+    //boxes();
+    smarts();
 }
