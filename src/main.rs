@@ -28,6 +28,8 @@ mod pointers;
 mod pointers2;
 mod cycles;
 mod concurrency;
+mod messages;
+mod mutexes;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -58,6 +60,8 @@ use crate::pointers::pointers;
 use crate::smarts::smarts;
 use crate::pointers2::pointers2;
 use crate::cycles::cycles;
+use crate::messages::messages;
+use crate::mutexes::mutexes;
 
 fn main() {
     //variables();
@@ -88,5 +92,7 @@ fn main() {
     //pointers();
     //pointers2();
     //cycles();
-    concurrency();
+    //concurrency();
+    //messages();
+    mutexes();
 }
