@@ -26,6 +26,7 @@ mod smarts;
 mod drops;
 mod pointers;
 mod pointers2;
+mod cycles;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -54,6 +55,7 @@ use crate::drops::drops;
 use crate::pointers::pointers;
 use crate::smarts::smarts;
 use crate::pointers2::pointers2;
+use crate::cycles::cycles;
 
 fn main() {
     //variables();
@@ -82,5 +84,6 @@ fn main() {
     //smarts();
     //drops();
     //pointers();
-    pointers2();
+    //pointers2();
+    cycles();
 }
