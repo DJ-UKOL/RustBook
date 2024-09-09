@@ -27,6 +27,7 @@ mod drops;
 mod pointers;
 mod pointers2;
 mod cycles;
+mod concurrency;
 
 use crate::variables::variables;
 use crate::functions::functions;
@@ -51,6 +52,7 @@ use crate::lifetimes::lifetimes;
 use crate::closures::closures;
 use crate::iterators::iterators;
 use crate::boxes::boxes;
+use crate::concurrency::concurrency;
 use crate::drops::drops;
 use crate::pointers::pointers;
 use crate::smarts::smarts;
@@ -85,5 +87,6 @@ fn main() {
     //drops();
     //pointers();
     //pointers2();
-    cycles();
+    //cycles();
+    concurrency();
 }
